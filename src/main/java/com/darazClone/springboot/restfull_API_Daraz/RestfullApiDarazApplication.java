@@ -19,7 +19,7 @@ public class RestfullApiDarazApplication {
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
 				.allowedMethods("*")
-				.allowedOrigins("http://localhost:3000");
+				.allowedOrigins("https://omtamang.github.io/Daraz-Clone/");
 			}
 		};
 	}
